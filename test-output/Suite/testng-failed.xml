@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="package1.Test4">
+        <methods>
+          <include name="banking"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- package1.Test4 -->
+      <class name="package1.Test5">
+        <methods>
+          <include name="telecom"/>
+        </methods>
+      </class> <!-- package1.Test5 -->
+      <class name="package1.Test1">
+        <methods>
+          <include name="simpletest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- package1.Test1 -->
+      <class name="package1.Test2">
+        <methods>
+          <include name="insurance"/>
+        </methods>
+      </class> <!-- package1.Test2 -->
+      <class name="package1.Test3">
+        <methods>
+          <include name="paymentgateway"/>
+        </methods>
+      </class> <!-- package1.Test3 -->
+      <class name="package1.Test6">
+        <methods>
+          <include name="security"/>
+        </methods>
+      </class> <!-- package1.Test6 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
